@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "<h1>test</h1>", 
-    "description": "<iframe src=javascript:alert(1)>",
+    "description": "<details open onbeforetoggle=alert('xss0r')>",
     "url": "https://evil.com"
   },
   "paths": {}
